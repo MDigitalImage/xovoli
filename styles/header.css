@@ -244,6 +244,18 @@ body{
     z-index: 1;
 } 
 
+.hm{
+    display: flex;
+}
+
+.hours{
+    margin-left: 300px;
+    width: 30%;
+}
+
+.contactt{
+    width: 50%;
+}
 
 .contact{
     min-height: 590px;
@@ -563,7 +575,21 @@ button:hover{
         margin-right: 0px;
         padding-bottom: 180px;
         padding-top: 30px;
-    } 
+    }
+    
+    .hm{
+        display: inline;
+    }
+
+    .hours{
+        margin: 0;
+        width: 100%;
+    }
+
+    .contactt{
+        margin: 0;
+        width: 100%;
+    }
        
 
     .menu{
