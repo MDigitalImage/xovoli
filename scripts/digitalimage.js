@@ -85,7 +85,7 @@ const menuIcon = document.getElementById('menu');
 const floationMenu = document.getElementById('floating-menu');
 var menuActivated = false;
 
-document.querySelector(".para").addEventListener('click',function(){
+document.getElementById('para').addEventListener('click',function(){
     if(menuActivated){
         para.style.filter = "blur(0rem)"
         floationMenu.style.display = "none"
