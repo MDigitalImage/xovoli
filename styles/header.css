@@ -651,7 +651,8 @@ button:hover{
     left: 5%;
     width: 90%;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;  
+    display: none;  
 }
 .slider .buttons button{
     width: 50px;
@@ -662,6 +663,7 @@ button:hover{
     border: none;
     font-family: monospace;
     font-weight: bold;
+    display: none;
 }
 .slider .dots{
     position: absolute;
