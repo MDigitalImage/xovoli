@@ -22,6 +22,7 @@ img {
 
 div {
     user-select: none;
+    pointer-events: none;
 }
 
 body{
