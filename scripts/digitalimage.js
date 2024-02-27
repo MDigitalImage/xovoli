@@ -89,6 +89,7 @@ document.getElementById('para').addEventListener('click',function(){
     if(menuActivated){
         para.style.filter = "blur(0rem)"
         floationMenu.style.display = "none"
+        floationMenu.classList.remove("showw")
         menuActivated = false;        
     }
 })
@@ -97,10 +98,12 @@ menuIcon.addEventListener('click', function(){
     if(!menuActivated){
         para.style.filter = "blur(0.4rem)"
         floationMenu.style.display = "flex"
+        floationMenu.classList.add("showw")
         menuActivated = true;
     }else{
         para.style.filter = "blur(0rem)"
         floationMenu.style.display = "none"
+        floationMenu.classList.remove("showw")
         menuActivated = false; 
     }    
 })
@@ -110,6 +113,7 @@ document.querySelectorAll('.header-text2').forEach((headerItem) => {
     headerItem.addEventListener('click', function() {
         para.style.filter = "blur(0rem)"
         floationMenu.style.display = "none"
+        floationMenu.classList.remove("showw")
         menuActivated = false;
 
         if(headerItemText == 'Αρχική' ){
