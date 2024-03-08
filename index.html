@@ -3,232 +3,289 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Χόβολη Καφέ | Κάρυστος Εύβοιας</title>
-    <link rel="icon" type="image/x-icon" href="icons/xovoli.svg">
-    <link rel="stylesheet" href="styles/header.css">  
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet"> 
+    <title>Digital Image</title>
+    <link rel="icon" type="image/x-icon" href="icons/DIlogo.svg">
+    <link rel="stylesheet" href="styles/header.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "ahaIQvSHR3SCNVJqD",
+      });
+   })();
+</script>
 </head>
 <body>
     <div id="loader">
+
     </div>
-    <img class="top-logo" id="logo" src="icons/xovoli.svg">
     <div class="header">
         <div class="left-session" >
             <p class="header-text" >
-                Αρχική
+                ΑΡΧΙΚΗ
             </p>
             <p class="header-text">
-                Τιμοκατάλογος
-            </p>       
-        </div>    
+                ΥΠΗΡΕΣΙΕΣ
+            </p>    
+            <p class="header-text-ghost">
+
+            </p>         
+        </div>
+        
+        <img class="logo noSelect" id="logo" src="icons/DIlogo.svg">
+
         <div class="right-session">
             <p class="header-text">
-                Επικοινωνία
+                ΣΧΕΤΙΚΑ ΜΕ ΕΜΑΣ
             </p>
             <p class="header-text">
-                Τοποθεσία
+                ΕΠΙΚΟΙΝΩΝΙΑ
             </p>                      
-        </div>        
+        </div>
+        
     </div>
-    <img id="menu" src="icons/filterssort.svg" class="menu">
-    <div class="floating-menu" id="floating-menu">
+    <img id="menu" src="icons/filterssort.svg" class="menu noSelect">
+    <div class="floating-menu noSelect" id="floating-menu">
         <p class="header-text2" >
-            Αρχική
+            ΑΡΧΙΚΗ
         </p>
         <p class="header-text2">
-            Τιμοκατάλογος
+            ΥΠΗΡΕΣΙΕΣ
         </p>
         <p class="header-text2">
-            Επικοινωνία
+            ΣΧΕΤΙΚΑ ΜΕ ΕΜΑΣ
         </p>
         <p class="header-text2">
-            Τοποθεσία
+            ΕΠΙΚΟΙΝΩΝΙΑ
         </p> 
     </div>
     <a href="index.html"><img id="arrowtop" src="icons/arrowdown.svg" class="arrowtop"></a>
     <div class="para" id="para">        
+        <img src="images/frontbackground.svg" class="front-background">
+        <img src="images/backbackground2.jpg" class="back-background">
         <div class="inside-para" id="inside-para">
             <div class="home hidden" id="home">
-                <p class="title-text">
-                    
+                <p class="title-text" style="letter-spacing: 0px;">
+                    Digital Image
                 </p>
-                <p class="subtitle-text phone-margin2" style="font-weight: normal; color: var(--main-color);">
-                    Χαλάρωση, Γεύση, Μουσική, Παρέα.  
+                <p class="subtitle-text" style="font-weight: bold; letter-spacing: -1;">
+                    Αναβαθμίζουμε την εικόνα της επιχείρησής σου.
                 </p>
-                <div class="slider">
-                    <div class="list">                        
-                        <div tabindex=-1 class="item">
-                            <img src="images/xovoli4.jpg" alt="">
-                        </div>
-                        <div tabindex=-1 class="item">
-                            <img src="images/xovoli5.jpg" alt="">
-                        </div>
-                        <div tabindex=-1 class="item">
-                            <img src="images/xovoli6.jpg" alt="">
-                        </div>
-                        <div tabindex=-1 class="item">
-                            <img src="images/xovoli9.jpg" alt="">
-                        </div>
-                        <div tabindex=-1 class="item">
-                            <img src="images/xovoli11.jpg" alt="">
-                        </div>
-                        <div tabindex=-1 class="item">
-                            <img src="images/xovoli12.jpg" alt="">
-                        </div>
-                        <div tabindex=-1 class="item">
-                            <img src="images/xovoli13.jpg" alt="">
-                        </div>
-                        <div tabindex=-1 class="item">
-                            <img src="images/xovoli14.jpg" alt="">
-                        </div>
-                        <div tabindex=-1 class="item">
-                            <img src="images/xovoli15.jpg" alt="">
-                        </div>
-                        <div tabindex=-1 class="item">
-                            <img src="images/xovoli16.jpg" alt="">
-                        </div>
-                        <div tabindex=-1 class="item">
-                            <img src="images/xovoli20.jpg" alt="">
-                        </div>
-                        <div tabindex=-1 class="item">
-                            <img src="images/xovoli22.jpg" alt="">
-                        </div>
-                        <div tabindex=-1 class="item">
-                            <img src="images/xovoli23.jpg" alt="">
-                        </div>
+                <p class="main-text"style="text-align: center; margin-top: 40px;">
+                    Προσφέρουμε:
+                </p>
+                <div class="promo-out">
+                    <div class="promo-div hidden2 noSelect">
+                        <img class="promo-image" src="images/websitevector.svg">
+                        <p class="main-text" style="font-weight: bold; text-align: center; font-size: 13px; margin-top: 30px;">
+                            Ιστοσελίδα που Αναδεικνύει
+                        </p>
                     </div>
-                    <div class="buttons">
-                        <button id="prev"><</button>
-                        <button id="next">></button>
+                    <div class="promo-div hidden2 noSelect">
+                        <img class="promo-image" src="images/googlemaps.svg">
+                        <p class="main-text" style="font-weight: bold; text-align: center; font-size: 13px; margin-top: 15px;">
+                            Κορυφαία κατάταξη στις υπηρεσίες της Google
+                        </p>
                     </div>
-                    <ul class="dots">
-                        <li class="active"></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
+                    <div class="promo-div hidden2 noSelect">
+                        <img class="promo-image" src="images/newslettericon.svg">
+                        <p class="main-text" style="font-weight: bold; text-align: center; font-size: 13px; margin-top: 30px;">
+                            E-mail Marketing με Μοντέρνες Τεχνολογίες
+                        </p>
+                    </div>                    
+                    <div class="promo-div hidden2 noSelect">                    
+                        <img class="promo-image" src="images/seo.svg">
+                        <p class="main-text" style="font-weight: bold; text-align: center; font-size: 13px; margin-top: 30px;">
+                            SEO που Εκτοξεύει
+                        </p>
+                    </div>
+                    <div class="promo-div hidden2 noSelect">                    
+                        <img class="promo-image" src="images/logodesignpensil.svg">
+                        <p class="main-text" style="font-weight: bold; text-align: center; font-size: 13px; margin-top: 30px;">
+                            Logo που τραβάει το βλεμα, μένει στο μυαλό
+                        </p>
+                    </div>
+                    <div class="promo-div hidden2 noSelect">                    
+                        <img class="promo-image" src="images/platformupdatesimage.svg">
+                        <p class="main-text" style="font-weight: bold; text-align: center; font-size: 13px; margin-top: 30px;">
+                            Διαχείριση Social Media και Διαφημίσεων
+                        </p>
+                    </div>
                 </div>
-                <div class="next-div" style="margin-top: 15px;">
-                    <p class="main-text" style="margin-top: 20px; margin-bottom: 10px; text-align: center; color: white;">
-                        Τιμοκατάλογος 
+                <div class="next-div noSelect">
+                    <p class="main-text" style="margin-top: 20px; margin-bottom: 10px; text-align: center;">
+                        ΣΧΕΤΙΚΑ ΜΕ ΕΜΑΣ 
                     </p>
                     <img class="arrowdown" src="icons/arrowdown.svg" >
                 </div>                                
             </div>
-            <div class="services hidden" id="services">
+            <div class="about hidden" id="about">
                 <p class="title-text">
-                    Τιμοκατάλογος
+                    ΣΧΕΤΙΚΑ ΜΕ ΕΜΑΣ
                 </p>
-                <p class="subtitle-text hidden2" style="font-weight: normal; color: var(--main-color);">
-                    Καφενίο - Οινοποτείο - Μεζεδοπωλείο - Γλυκοπωλείο 
+                <p class="subtitle-text" style="text-align: start;">
+                    Η Digital Image αναβαθμίζει την εικόνα της επιχείρισης σου στο διαδίκτυο  
                 </p>
-                <img class="menu-image" src="images/xovoliMenu.svg"> 
-                <p class="subtitle-text hidden2 " style="margin-bottom: 90px;">
-                    Δείτε τον Τιμοκατάλογό μας <a target="_blank" style="color: var(--main-color);" href="https://www.xovoli.gr/timokatalgos_xovoli.pdf">ΕΔΏ</a>  
-                </p>   
-                <div class="next-div">
-                    <p class="main-text" style="margin-top: 20px; margin-bottom: 10px; text-align: center; color: white;">
-                        Επικοινωνία
+                <p class="main-text">
+                    Το διαδίκτυο προσφέρει τη μεγαλύτερη ευκαιρία για προσέλκυση πελατών έχοντας κάνει όμως την αγορά χαώδη. Με τις προηγμένες τεχνικές μας και δημιουργικό πνεύμα, εξασφαλίζουμε ότι οι πελάτες μας θα ξεχωρίσουν. Συνδυάζουμε τις γνώσεις μας με λεπτομερή προσέγγιση για να προσφέρουμε λύσεις που θα αυξήσουν τις πωλήσεις και την αναγνωρισιμότητα των πελατών μας, επιτρέποντάς τους να επικεντρωθούν αποκλειστικά στο προϊόν ή την υπηρεσία τους.   
+                </p>                
+                
+                <p class="subtitle-text" style="text-align: start;">
+                    Οι υπηρεσίες μας: 
+                </p>
+                <div class="small-div hidden2">
+                    <img class="tick-icon" src="icons/selectedicon.svg">
+                    <p class="main-text" style="margin: 6px;">
+                        Δημιουργία Ιστοσελίδας που Αναδεικνύει την Επιχείρισή σου
+                    </p>
+                </div>
+                <div class="small-div hidden2">
+                    <img class="tick-icon" src="icons/selectedicon.svg">
+                    <p class="main-text" style="margin: 6px;">
+                        Βέλτιστη Διαχείριση Google Bussiness Profile
+                    </p>
+                </div>
+                <div class="small-div hidden2">
+                    <img class="tick-icon" src="icons/selectedicon.svg">
+                    <p class="main-text" style="margin: 6px;">
+                        E-mail Marketing με Μοντέρνες Τεχνολογίες
+                    </p>
+                </div>                
+                <div class="small-div hidden2">
+                    <img class="tick-icon" src="icons/selectedicon.svg">
+                    <p class="main-text" style="margin: 6px;">
+                        SEO Βελτιστοποίση Ιστοσελίδων για τις Μηχανές Αναζήτησης
+                    </p>
+                </div>
+                <div class="small-div hidden2">
+                    <img class="tick-icon" src="icons/selectedicon.svg">
+                    <p class="main-text" style="margin: 6px;">
+                        Κατάλληλο Logo που τραβάει το βλεμα και μένει στο μυαλό
+                    </p>
+                </div> 
+                <div class="small-div hidden2">
+                    <img class="tick-icon" src="icons/selectedicon.svg">
+                    <p class="main-text" style="margin: 6px;">
+                        Διαχείριση social media και διαφημίσεων
+                    </p>
+                </div>  
+                <div class="next-div noSelect">
+                    <p class="main-text" style="margin-top: 20px; margin-bottom: 10px; text-align: center;">
+                        ΥΠΗΡΕΣΙΕΣ
                     </p>
                     <img class="arrowdown" src="icons/arrowdown.svg" >
                 </div>              
             </div>
-            <div class="about hidden" id="about" style="padding-bottom: 0px;">
+            <div class="services hidden" id="services" style="padding-bottom: 180px;">
                 <p class="title-text">
-                    Επικοινωνία
+                    ΥΠΗΡΕΣΙΕΣ
                 </p>
-                <div class="hm">
-                    <div class="contactt">
-                        <p class="subtitle-text" style="text-align: start;">
-                            Τηλέφωνο   
-                        </p>
-                        <p class="main-text hidden2" style="text-align: start;">
-                            2224 023927
-                        </p>
-                        <p class="subtitle-text" style="text-align: start;">
-                            Διεύθυνση  
-                        </p>
-                        <p class="main-text hidden2" style="text-align: start;">
-                            Κριεζώτου 120, Κάρυστος 340 01  
-                        </p>
-                        <p class="subtitle-text" style="text-align: start;">
-                            Δείτε τα νέα μας   
-                        </p>
-                        <p class="main-text hidden2 margin-bottom: 0px;">
-                            Facebook: <a target="_blank" style="color: var(--main-color);" href="https://www.facebook.com/xovoli"> Χόβολη Καφέ</a>
-                        </p>
-                        <p class="main-text hidden2" style="text-align: start;">
-                            Instagram: <a target="_blank" style="color: var(--main-color);" href="https://www.facebook.com/xovoli">@xovoli_cafe</a>  
-                        </p>
-                        <p class="subtitle-text" style="text-align: start;">
-                            Γράψτε μας την γνώμη σας   
-                        </p>
-                        <p class="main-text hidden2 ">
-                            Αφήστε μας μία κρητική <a target="_blank" style="color: var(--main-color);" href="https://www.google.com/maps/place/%CE%A7%CE%9F%CE%92%CE%9F%CE%9B%CE%97+%CE%A0%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%83%CE%B9%CE%B1%CE%BA%CF%8C+%CE%BA%CE%B1%CF%86%CE%B5%CE%BD%CE%B5%CE%AF%CE%BF,+%CE%9A%CF%81%CE%B9%CE%B5%CE%B6%CF%8E%CF%84%CE%BF%CF%85+120,+%CE%9A%CE%AC%CF%81%CF%85%CF%83%CF%84%CE%BF%CF%82+340+01/@38.0136534,24.4171432,17z/data=!4m6!3m5!1s0x14a3ccaffd925f83:0xe615089675f24d90!8m2!3d38.0136534!4d24.4171432!16s%2Fg%2F1z44vtnh3?hl=el">ΕΔΏ</a>
-                        </p>
-                    </div>
-                    <div class="hours" >
-                        <p class="subtitle-text" style="text-align: start;">
-                            Ώρες Λειτουργείας  
-                        </p>
-                        <p class="main-text hidden2" style="text-align: start; margin-bottom: 0px;">
-                            Δευτέρα, 7:00 π.μ.–5:00 π.μ.  
-                        </p>
-                        <p class="main-text hidden2" style="text-align: start; margin-bottom: 0px;">
-                            Τρίτη, 7:00 π.μ.–5:00 π.μ.
-                        </p>
-                        <p class="main-text hidden2" style="text-align: start; margin-bottom: 0px;">
-                            Τετάρτη, 7:00 π.μ.–5:00 π.μ.
-                        </p>
-                        <p class="main-text hidden2" style="text-align: start; margin-bottom: 0px;">
-                            Πέμπτη, 7:00 π.μ.–5:00 π.μ.
-                        </p>
-                        <p class="main-text hidden2" style="text-align: start; margin-bottom: 0px;">
-                            Παρασκευή, 7:00 π.μ.–5:00 π.μ.
-                        </p>
-                        <p class="main-text hidden2" style="text-align: start; margin-bottom: 0px;">
-                            Σάββατο, 7:00 π.μ.–5:00 π.μ.
-                        </p>
-                        <p class="main-text hidden2" style="text-align: start; margin-bottom: 0px;">
-                            Κυριακή, 7:00 π.μ.–5:00 π.μ.
-                        </p>
-                    </div>
-                </div>
-                <div class="next-div">
-                    <p class="main-text" style="margin-top: 20px; margin-bottom: 10px; color: white;">
-                        Τοποθεσία 
+                <p class="subtitle-text" style="text-align: start;">
+                    Δημιουργία Ιστοσελίδας που αναδεικνύει την επιχείρισή σου   
+                </p>
+                <p class="main-text">
+                    Σχεδιάζουμε και αναπτύσουμε την ιστοσελίδα της επιχειρισης σου αναδυκνύοντας την κατάλληλα απο οποιαδήποτε συσκευή, προβάλλοντας την στην διαδικτυακή αγορά και εξασφαλίζοντας κορυφαία θέση στις οργανικές κατατάξεις της Google.
+                </p>
+                <p class="subtitle-text" style="text-align: start;">
+                    Βέλτιστη Διαχείριση Google Bussiness Profile   
+                </p>
+                <p class="main-text" style="text-align: start;">
+                    Διαμορφώνουμε κατάλληλα τον λογαρισμό Google Bussiness Profile της επιχείρισης σου, εμφανίζοντας την στις πρώτες σελίδες της Google και στους χάρτες της.
+                </p>
+                <p class="subtitle-text" style="text-align: start;">
+                    E-mail Marketing με Μοντέρνες Τεχνολογίες  
+                </p>
+                <p class="main-text" style="text-align: start;">
+                    Αναλαμβάνουμε E-mail καμπάνιες προώθησης της επιχείρισης σου που κερδίζουν νέους πελάτες και κρητικές οι οποίες ανυψώνουν την κατάταξη σου στις πλατφόρμες της Google.  
+                </p>                
+                <p class="subtitle-text" style="text-align: start;">
+                    SEO Βελτιστοποίση Ιστοσελίδων για τις Μηχανές Αναζήτησης   
+                </p>
+                <p class="main-text">
+                    Βελτιστοποιούμε το περιεχόμενο της ιστοσελίδας σας για να την προωθήσουμε στις μηχανές αναζήτησης και να την κατατάξουμε ψηλά στα αποτελέσματα της Google.
+                </p>
+                <p class="subtitle-text" style="text-align: start;">
+                    Κατάλληλο Logo που τραβάει το βλεμα και μένει στο μυαλό  
+                </p>                                
+                <p class="main-text">
+                    Λογότυπο που σε εντιπροσωπεύει. Ξεχωριστό, χαρακτιριστικό και διαχρονικό. Κομψό και ταυτόχρωνα εντιπωσιακό.                     
+                </p> 
+                <p class="subtitle-text" style="text-align: start;">
+                    Διαχείριση Social Media και Διαφημίσεων  
+                </p>                                
+                <p class="main-text">
+                    Στρατιγική διαχείριση των Social Media που φέρνει στην επιχείριση σου φρέσκο αέρα, αλληλεπίδραση και δέσιμο με το κοινό και ευρία αναγνώριση του brand.    
+                    
+                </p>
+                <div class="next-div noSelect">
+                    <p class="main-text" style="margin-top: 20px; margin-bottom: 10px;">
+                        ΕΠΙΚΟΙΝΩΝΙΑ 
                     </p>
                     <img class="arrowdown" src="icons/arrowdown.svg" >
                 </div>             
             </div>            
             <div class="contact hidden" id="contact">
                 <p class="title-text">
-                    Τοποθεσία στον Χάρτη
+                    ΕΠΙΚΟΙΝΩΝΙΑ
                 </p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.434306466965!2d24.41456827574642!3d38.013653371926104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a3ccaffd925f83%3A0xe615089675f24d90!2zzqfOn86Szp_Om86XIM6gzrHPgc6xzrTOv8-DzrnOsc66z4wgzrrOsc-GzrXOvc61zq_Ovw!5e0!3m2!1sel!2sgr!4v1708936596693!5m2!1sel!2sgr" width="90%" height="390" style="border:0; display: block; margin: auto; margin-left: 30px; margin-right: 30px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <div>
-                    <a href="https://www.google.com/maps/place/%CE%A7%CE%9F%CE%92%CE%9F%CE%9B%CE%97+%CE%A0%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%83%CE%B9%CE%B1%CE%BA%CF%8C+%CE%BA%CE%B1%CF%86%CE%B5%CE%BD%CE%B5%CE%AF%CE%BF/@38.013653,24.417143,16z/data=!4m6!3m5!1s0x14a3ccaffd925f83:0xe615089675f24d90!8m2!3d38.0136534!4d24.4171432!16s%2Fg%2F1z44vtnh3?hl=el&entry=ttu">
-                        <button onclick="" type="submit">
-                            Άνοιγμα στον Χάρτη
-                        </button>
-                    </a>                    
+                    <div class="main-contact">                    
+                        <input id="surname" class="surname" name="surname" type="text" placeholder="Επίθετο" style="margin-top: 0px;" required>
+                        <input id="name" class="firstname" name="name" type="name" placeholder="Όνομα" required>
+                        <input id="email" class="email" name="email" type="email" placeholder="E-mail" required>
+                        <input id="company" class="company" name="company" placeholder="Εταιρία">
+                        <input id="message" class="message" name="message" placeholder="Σύντομο Μύνημα" required>
+                        <button class="noSelect" onclick="sendMail()" type="submit">
+                            ΥΠΟΒΟΛΗ
+                        </button>                    
+                    </div>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/digitalimage.gr/"><img class="socialmedialogo" src="icons/iglogo.svg" alt=""></a>
                 </div>
             </div>
             <div class="bottom-header">
-                <img class="logo" id="logo2" src="icons/xovoli.svg">               
+                <div class="left-session" >
+                    <div style="display: flex; flex-direction: column;">
+                        <img class="socialmedialogo noSelect" style="margin: auto; margin-top: 15px; margin-bottom: 0px;" src="icons/gmailicon.svg" alt="">
+                        <p class="bottom-header-text" style="margin-top: 3px;">
+                            digitalimage.technology@gmail.com
+                        </p>
+                    </div>                    
+                    <p class="header-text-ghost">
+                
+                    </p>                     
+                </div>
+                <img class="logo noSelect" id="logo2" src="icons/DIlogo.svg">
+                <div class="right-session">
+                    <p class="header-text-ghost">
+                
+                    </p> 
+                    <div >
+                        <a href="policy.html">
+                            <p class="header-text">
+                                Πολιτική
+                            </p>
+                        </a>                        
+                        <p class="bottom-header-text">
+                            ©DIGITALIMAGE
+                        </p>  
+                    </div>                                        
+                </div>                
             </div>
         </div>        
     </div>
     <script src="scripts/digitalimage.js"></script> 
-    <script src="scripts/app.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>  
     <script>
-        var loader = document.getElementById("loader");
+        var loader = document.getElementById("loader");       
+
         window.onload = function() {
             loader.style.display="none";
         };
+        
     </script>
 </body>
 </html>
